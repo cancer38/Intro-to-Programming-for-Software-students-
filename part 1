@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class part1 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.print("Put in a mileage: ");
+		String miles = input.next();
+
+		int distance = 100;
+		double cost = 5.00;
+		
+		
+		if(distance == 100){
+			System.out.println("Cost is $5.00");
+		}
+	
+		else;
+			System.out.println("$8.00");
+	
+			
+		System.out.printf("For the package to travel " + distance + " miles it would cost $" + cost + 0);
+	}
+}
+
